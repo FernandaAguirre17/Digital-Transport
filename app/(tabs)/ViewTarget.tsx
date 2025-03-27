@@ -14,24 +14,24 @@ const BankCardDetails = () => {
     numero: '4532 7812 3456 7890',
     titular: 'Juan Pérez Martínez',
     fechaExpiracion: '12/27',
-    saldoActual: 15750.45,
+    saldoActual: 157.45,
     ultimosMovimientos: [
       { 
         fecha: '15/03/2025', 
-        descripcion: 'Compra Supermercado', 
-        monto: -125.60,
+        descripcion: 'Uso de tarjeta ', 
+        monto: -11,
         tipo: 'gasto'
       },
       { 
         fecha: '12/03/2025', 
         descripcion: 'Transferencia Recibida', 
-        monto: 2500.00,
+        monto: 250.00,
         tipo: 'ingreso'
       },
       { 
         fecha: '10/03/2025', 
-        descripcion: 'Pago Luz', 
-        monto: -87.30,
+        descripcion: 'Uso de Targeta', 
+        monto: -44,
         tipo: 'gasto'
       }
     ]

@@ -12,7 +12,7 @@ import {
 import { FontAwesome5 } from '@expo/vector-icons';
 
 const BankCardTransfers = () => {
-  const [saldo, setSaldo] = useState(15750.45);
+  const [saldo, setSaldo] = useState(25.45);
   const [transferModal, setTransferModal] = useState(false);
   const [rechargeModal, setRechargeModal] = useState(false);
   const [montoTransferencia, setMontoTransferencia] = useState('');
@@ -205,8 +205,8 @@ const styles = StyleSheet.create({
   },
   bankCard: {
     backgroundColor: '#2563EB',
-    borderRadius: 12,
-    padding: 20,
+    borderRadius: 20,
+    padding: 25,
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 4 },
     shadowOpacity: 0.1,
@@ -245,13 +245,13 @@ const styles = StyleSheet.create({
   balanceCard: {
     backgroundColor: 'white',
     borderRadius: 12,
-    padding: 16,
+    padding: 20,
     marginBottom: 16,
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.1,
     shadowRadius: 4,
-    elevation: 3
+    elevation: 5
   },
   balanceHeader: {
     flexDirection: 'row',
@@ -300,7 +300,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: 'rgba(0,0,0,0.5)'
+    backgroundColor: 'rgba(0, 0, 0, 0.5)'
   },
   modalContent: {
     backgroundColor: 'white',
